@@ -1,12 +1,13 @@
-#  Cursos
-Repositório destinado principalmente para Cursos e Teste
+#  Projetos
+Repositório destinado principalmente para Cursos e Teste de Projetos
 
-<h3>Meus Cursos</h3>
+<h3>Meus Projetos</h3>
 
 - Alura - Formação em HTML5 e CSS3
 - Alura - Formação Git e Github
 - Programiz - SQL
 - Programiz - JavaScript
+- Formação Full Stack Challenge
 
 ---
 
