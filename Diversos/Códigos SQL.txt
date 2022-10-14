@@ -1,0 +1,79 @@
+--Criar uma tabela
+--CREATE TABLE nome_coluna (nome_coluna datatype(),...)
+
+
+--Inserir dados no campo de uma tabela
+--INSERT INTO nome_coluna (nome_coluna,...)
+VALUES (dados_do_campo);
+
+
+--Alterar o datatype de uma coluna
+--ALTER TABLE nome_tabela
+ALTER COLUMN nome_coluna datatype();
+
+
+--Atualizar um campo de uma tabela
+--UPDATE nome_tabela SET nome_coluna = 'dados_campo'
+WHERE nome_coluna = '';
+
+
+--Deletar uma linha
+--DELETE FROM nome_tabela
+WHERE null;
+
+
+--Deletar uma coluna
+--ALTER TABLE nome_tabela
+DROP COLUMN nome_coluna;
+
+
+--Deletar uma tabela
+--DROP TABLE nome_tabela
+
+
+--Adicionar uma chave primária numa coluna
+--ALTER TABLE nome_tabela
+ADD PRIMARY KEY (nome_coluna);
+
+
+--Renomear coluna de uma tabela
+--ALTER TABLE nome_tabela
+RENAME COLUMN nome_coluna TO nome_nova_coluna;
+
+
+--Adicionar uma nova coluna na tabela
+--ALTER TABLE Customers ADD cpf VARCHAR(14);
+
+
+--Selecionar uma tabela
+--SELECT * FROM Customers 
+
+
+--Selecionar campos de uma tabela
+--SELECT Customers.customer_id, Customers.first_name, cpf, Orders.item, amount, status, country
+--FROM ((Orders
+--INNER JOIN Customers ON Orders.customer_id = Customers.customer_id)
+--INNER JOIN Shippings ON Orders.customer_id = Shippings.customer)
+--ORDER BY Customers.customer_id;
+
+
+--Selecionar campos de mais de duas tabela
+--SELECT nome_tabela.nome_coluna, nome_tabela2.nome_coluna...
+FROM nome_tabela2
+INNER JOIN nome_tabela ON nome_tabela.nome_coluna = nome_tabela.nome_coluna
+INNER JOIN nome_tabela2 ON nome_tabela2.nome_coluna = nome_tabela.nome_coluna;
+
+
+--Agrupar linhas que tenham o mesmo valor
+--SELECT COUNT(customer_id), age
+FROM Customers
+GROUP BY age;
+
+
+--Agrupar linhas que tenham o mesmo valor com uma condição
+--SELECT COUNT(customer_id), country
+FROM Customers
+GROUP BY country HAVING COUNT(customer_id) > ;
+
+
+

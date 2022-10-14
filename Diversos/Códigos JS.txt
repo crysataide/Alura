@@ -1,0 +1,175 @@
+/*const object_name = {
+    key: value1,
+    key: value2
+}*/
+
+//////USANDO NOTAÇÃO DE PONTO\\\\\\
+//object.key
+/*
+const person = { name: 'John', age: 20 };
+
+console.log(person.name);
+*/
+
+
+//////USANDO NOTAÇÃO DE COLCHETES\\\\\\
+//0object["propertyKey"]
+/*
+const person = {name: 'John', age: 20,}
+
+console.log(person["name"]);
+*/
+
+
+//////OBJETOS ANINHADOS JAVASCRIPT\\\\\\
+/*
+const student = { nome: 'John', idade: 20, marks: {ciencia: 70, matematica: 75}};
+
+console.log(student.marks);
+console.log(student.marks.ciencia);
+*/
+
+
+//////MÉTODOS DE OBJETOS JAVASCRIPT\\\\\\
+/*
+const person = { nome: 'Sam', idade: 30, greet: function() { console.log('hello')}}
+
+person.greet();
+*/
+
+
+//////MÉTODOS JAVASCRIPT E ESTA PALAVRA-CHAVE\\\\\\
+/*
+const person = { nome: 'Sam', greet: function() { console.log('hello')}}
+
+person.greet();
+*/
+
+
+//////ACESSANDO MÉTODOS DE OBJETO\\\\\\
+/*
+const person = { nome: 'John', greet: function() { console.log('hello'); }};
+
+person.nome;
+
+person.greet();
+*/
+
+
+//////MÉTODOS INCORPORADOS DE JAVASCRIPT\\\\\\
+/*
+let number = '23.32';
+let result = parseFloat(number);
+
+console.log(result);
+*/
+
+
+//////ADICIONANDO UM MÉTODO A UM OBJETO JAVASCRIPT\\\\\\
+/*
+let student = {};
+
+student.name = 'John';
+
+student.greet = function()
+{
+    console.log('hello');
+}
+
+student.greet();
+*/
+
+
+//////JAVASCRIPT ESTA PALAVRA-CHAVE\\\\\\
+/*
+const person = { nome: 'John', idade: 30,
+    greet: function() { console.log('O nome é' + ' ' + this.nome); }
+};
+
+person.greet();
+*/
+/*
+const person = {
+    nome: 'John',
+    idade: 30,
+    greet: function() {
+        let sobrenome = 'Doe';
+        console.log('O nome é' + ' ' + this.nome + ' ' + sobrenome); }
+};
+
+person.greet();
+*/
+
+
+//////FUNÇÃO CONSTRUTORA JAVASCRIPT\\\\\\
+/*
+function Person () { this.nome = 'John', this.idade = 23 }
+
+const person = new Person();
+*/
+
+
+//////CRIE VÁRIOS OBJETOS COM A FUNÇÃO CONSTRUTOR\\\\\\
+/*
+function Person ()
+    {
+    this.nome = 'John',
+    this.idade = 23,
+    this.greet = function () {
+        console.log('hello');
+    }
+}
+
+const person1 = new Person();
+const person2 = new Person();
+
+console.log(person1.nome);
+console.log(person2.nome);
+*/
+
+
+//////JAVASCRIPT ESTA PALAVRA-CHAVE\\\\\\
+/*
+function Person () { this.nome = 'John' }
+
+const person1 = new Person();
+
+console.log(person1.nome);
+*/
+
+
+//////PARÂMETROS DA FUNÇÃO CONSTRUTORA JAVASCRIPT\\\\\\
+/*
+function Person (person_nome, person_idade, person_genero) {
+    
+    this.nome = person_nome,
+    this.idade = person_idade,
+    this.genero = person_genero,
+
+    this.greet = function () {
+        return ('Oi' + ' ' + this.nome + this.idade + this.genero);
+    }
+}
+
+const person1 = new Person('John', 23, 'Homem');
+const person2 = new Person('Sam', 25, 'Mulher');
+
+console.log(person1.nome);
+console.log(person2.nome);
+*/
+
+
+//////CRIAR OBJETOS: FUNÇÃO CONSTRUTORA VS LITERAL DE OBJETO\\\\\\
+/*
+let person = {
+    name: 'Sam'
+}
+
+console.log(person.name);
+
+let student = person;
+
+student.name = 'John';
+
+console.log(person.name);
+*/
