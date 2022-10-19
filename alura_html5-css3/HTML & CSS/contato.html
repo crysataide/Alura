@@ -31,35 +31,35 @@
                     <h2 class="titulo-contato">Formulário</h2>
                     <div class="formulario-contato">
                         <label for="nome">Nome</label>
-                        <input type="text" id="nome" class="input-padrao" required>
+                        <input type="text"  id="nome"      class="input-padrao" required>
                         <label for="sobrenome">Sobrenome</label>
-                        <input type="text" id="sobrenome" class="input-padrao" required>
+                        <input type="text"  id="sobrenome" class="input-padrao" required>
                         <label for="Email">Email</label>
-                        <input type="email" id="Email" class="input-padrao" required placeholder="seuemail@dominio.com">
+                        <input type="email" id="Email"     class="input-padrao" required placeholder="seuemail@dominio.com">
                         <label for="telefone">Telefone</label>
-                        <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) X XXXX-XXXX">
+                        <input type="tel"   id="telefone"  class="input-padrao" required placeholder="(XX) X XXXX-XXXX">
                         <label for="menssagem">Mensagem</label>
                         <textarea cols="67" rows="10" id="menssagem" class="input-padrao" required></textarea>
                     </div>
                     <div class="contato">
                         <legend>Como prefere o nosso contato?</legend>
-                        <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email"> Email</label>
-                        <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone"> Telefone</label>
+                        <label for="radio-email">   <input type="radio" name="contato" value="email"    id="radio-email">             Email</label>
+                        <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">          Telefone</label>
                         <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked > Whatsapp</label>
                     </div>
                     <div class="horario-contato">
                         <legend>Qual horário prefere ser atendido?</legend>
                         <i class="fas fa-bell"></i>
-                        <option>Manhã</option>
-                        <option>Tarde</option>
-                        <option>Noite</option>
+                        <label for="radio-manha"><input type="radio" name="horario-contato" value="manha" id="radio-manha">Manhã</label>
+                        <label for="radio-tarde"><input type="radio" name="horario-contato" value="tarde" id="radio-tarde">Tarde</label>
+                        <label for="radio-noite"><input type="radio" name="horario-contato" value="noite" id="radio-noite">Noite</label>
                     </div>
                     <label class="checkbox"><input type="checkbox"> Gostaria de receber nossas novidades por email?</label>
                     <input type="submit" value="Enviar formulário" class="enviar"></input>
                 </section>
             </form>
 
-            <table class="table">
+            <table class="contato-table">
                 <thead>
                     <tr>
                         <th>Dia</th>

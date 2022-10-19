@@ -130,7 +130,7 @@ nav a:hover {
 	background: linear-gradient(135deg, #e9e2e2 0%, #fefefe 7% 70%, #BBBBBB 100%);
 }
 
-.form, .table {
+.form {
 	width: 940px;
 	margin: 0 auto;
 	padding: 3em 0;
@@ -164,6 +164,7 @@ form label, form legend {
 
 .contato label, .contato input {
 	cursor: pointer;
+	font-size: 18px;
 }
 
 .horario-contato {
@@ -172,7 +173,7 @@ form label, form legend {
 	display: block;
 }
 
-div option {
+.horario-contato label {
 	font-size: 18px;
 	padding: auto 0;
 	cursor: pointer;
@@ -202,11 +203,13 @@ div option {
 	transform: scale(103%);
 }
 
-table {
+.contato-table {
 	font-size: 18px;
-	width: 600px;
 	display: block;
-	padding-top: 3em ;
+	width: 940px;
+	margin: 0 auto;
+	padding-top: 6px;
+	padding-bottom: 3em;
 }
 
 thead {
@@ -233,11 +236,11 @@ td, th {
 		position: static;
 	}
 
-	.form, .table, .horario-contato {
+	.form, .contato-table, .horario-contato {
 		width: 100%;
 	}
 
-	section, table {
+	section, .contato-table {
 		padding-left: 20px;
 	}
 	
@@ -254,7 +257,7 @@ td, th {
 		width: 200px;
 	}
 
-	.contato label, .horario-contato option, table {
+	.contato label, .horario-contato label, .contato-table {
 		font-size: 14px;
 	}
 
@@ -273,9 +276,10 @@ td, th {
 		transform: scale(103%);
 	}
 
-	table {
-		width: 300px;
-		padding-top: 20px ;
+	.contato-table {
+		padding-top: 0px ;
+		padding-right: 20px;
+		padding-bottom: 3em;
 	}
 
 	td, th {
