@@ -52,6 +52,7 @@ body {
         padding: 16px 60px;
         height: 80px;
         box-sizing: border-box;
+        grid-column: 2;
     }
 
     .cabecalho__menu {
@@ -166,7 +167,7 @@ body {
         position: static;
         width: 200px;
         grid-column: 1;
-        grid-row: 1;
+        grid-row: 1 / span 2;
     }
 }
 
@@ -176,13 +177,10 @@ body {
     gap: 16px;
 }
 
-.cartao--destaque {
-    margin-bottom: 16px;
-}
-
 .titulo-pagina {
     font-size: 1.5rem;
     font-weight: 700;
+    grid-area: titulo-pagina;
 }
 
 .titulo-secao {
@@ -196,7 +194,13 @@ body {
         grid-template-columns: auto 1fr auto;
         column-gap: 32px;
         padding: 16px 60px;
+        grid-column: 2;
+        grid-template-areas: "titulo-pagina titulo-pagina titulo-pagina" "destaque destaque recentes";
     }
+
+    /* .titulo-pagina {
+        grid-column: 1 / span 3;
+    } */
 }
 
 .cartao {
@@ -204,6 +208,12 @@ body {
     border-radius: 15px;
     overflow: hidden;
     background-color: #2C343A;
+}
+
+.cartao--destaque {
+    margin-bottom: 16px;
+    grid-area: destaque;
+    /* grid-column: 1 / span 2; */
 }
 
 .cartao__conteudo {
@@ -286,6 +296,8 @@ body {
         width: 256px;
         padding: 16px;
         box-sizing: border-box;
+        grid-area: recentes;
+        /* grid-column: 3; */
     }
 
     .cartao--recentes, .cartao__titulo {
