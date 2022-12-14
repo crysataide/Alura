@@ -4,6 +4,7 @@
     --botao-azul: #167BF7;
     --cor-de-fundo: #00030C;
     --fonte-principal: inter;
+    --botao-azul-efeito: #0d78fb;
 }
 
 body {
@@ -142,4 +143,22 @@ body {
     margin: 2em 0;
     color: var(--cinza-secundario);
     font-size: 14px;
+}
+
+.lista__link a:hover {
+    color: var(--botao-azul);
+}
+
+.botao_primario:hover {
+    background-color: var(--botao-azul-efeito);
+    color: var(--cor-de-fundo);
+}
+
+.botao_primario:active {
+    background-color: #89a7ff;
+}
+
+.botao_secundario:hover {
+    background-color: transparent;
+    border: 2px solid #bebebe;
 }
