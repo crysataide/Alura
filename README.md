@@ -1,7 +1,10 @@
-#  Projetos
+# Cursos e Projetos na Alura
+
 Repositório destinado principalmente para Cursos e Teste de Projetos
 
-<h3>Meus Projetos</h3>
+<br>
+
+## Meus Cursos/Formações
 
 - Alura - Formação Git e Github
 - Alura - Formação em HTML5 e CSS3
@@ -10,9 +13,15 @@ Repositório destinado principalmente para Cursos e Teste de Projetos
 - Programiz - JavaScript
 - Formação Full Stack Challenge
 
+## Meus Projetos
+
+- [Barbearia Alura](https://crysataide.github.io/barbearia_alura/)
+
+<br>
+
 ---
 
-<h3>Principais linguagens</h3>
+### Principais linguagens
 
 <div>
   <img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg" title="Python" alt="Python" width="40" height="40"/>&nbsp;
