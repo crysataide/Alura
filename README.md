@@ -6,9 +6,9 @@ Repositório destinado principalmente para Cursos e Teste de Projetos
 
 ## Meus Cursos/Formações
 
-- Alura - Formação Git e Github
-- Alura - Formação em HTML5 e CSS3
-- Alura - Python com Orientação a Objetos
+- Alura - [Formação Git e Github](https://cursos.alura.com.br/formacao-git-e-github-raul-camatari-1609958487455-p106645)
+- Alura - [Formação em HTML5 e CSS3](https://cursos.alura.com.br/formacao-html-css-v534235)
+- Alura - [Python com Orientação a Objetos](https://cursos.alura.com.br/formacao-Python-linguagem)
 - Programiz - SQL
 - Programiz - JavaScript
 - Formação Full Stack Challenge
