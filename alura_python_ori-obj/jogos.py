@@ -1,73 +1,25 @@
-import random
 import os
+import forca
+import adivinhacao
 
-des = True
-
-while des:
+def escolhe_jogo():
     cls = lambda: os.system('cls')
-    cls()
 
-    print("******************************")
-    print("Bem vindo jogo de Adivinhação!")
-    print("******************************")
-    print("\n")
-    print("Objetivo: adivinhe o número secreto")
+    print("**********************")
+    print("== Escolha seu jogo ==")
+    print("**********************")
     print("\n")
 
-    numero_secreto = int(random.random()*100)
+    jogo = int(input("[1]Forca [2]Adivinhação: "))
 
-    while not(numero_secreto>0):
-        numero_secreto = int(random.random()*100)
-
-    total_de_tentativas = int(input("Digite a quantidade de tentativas: "))
-
-    print(numero_secreto)
-
-    getch = input('').split(" ")[0]
-    cls()
-
-    for rodada in range(1, total_de_tentativas):
-        print("Tentativa {} de {}".format(rodada, total_de_tentativas))
-        chute = int(input("\nDigite o seu número: "))
-
+    if jogo == 1:
         cls()
-
-        print("Você digitou", chute)
-
-        if chute < 1 or chute > 100:
-            print("\nVocê deve digitar um número entre 1 e 100\n")
-            continue
-
-        acertou = chute == numero_secreto
-        maior   = chute >  numero_secreto
-        menor   = chute <  numero_secreto
-
-        if acertou:
-            print("\nVocê acertou!!!")
-            break
-        elif maior:
-            print("\nDigite um número menor")
-        elif menor:
-            print("\nDigite um número maior")
-
-        print("\nRestam {} tentativas\n".format(total_de_tentativas-rodada))
-        getch = input('').split(" ")[0]
+        print('Abrindo forca...')
+        forca.jogar()
+    elif jogo == 2:
         cls()
-
-    if not(acertou):
-        print("Fim das tentativas!!!\n")
-
-    getch = input('').split(" ")[0]
-
-    print("Deseja jogar novamente?")
-    des = input("S para Sim[] N para Não[] --> ")
-    erro = False
-
-    while erro == True:
-        if des == 's' or 'S':
-            des = True
-        elif des == 'n' or 'N':
-            des == False
-        else:
-            print("Digite um valor válido")
-            erro = True
+        print('Abrindo adivinhação...')
+        adivinhacao.jogar()
+  
+if __name__ == "__main__":
+    escolhe_jogo()
