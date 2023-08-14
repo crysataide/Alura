@@ -16,6 +16,7 @@ Repositório destinado principalmente para Cursos e Teste de Projetos
 ## Meus Projetos
 
 - [Barbearia Alura](https://crysataide.github.io/barbearia_alura/)
+- [Alura Books](https://crysataide.github.io/alura_books/).
 
 ---
 
