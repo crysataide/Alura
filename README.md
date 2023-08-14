@@ -5,7 +5,7 @@ Repositório destinado principalmente para Cursos e Teste de Projetos
 ## Meus Cursos/Formações
 
 - ### Formações
-    - [ ] [Formação Git e Github](https://cursos.alura.com.br/formacao-git-e-github-raul-camatari-1609958487455-p106645)
+    - [ ] [Formação Git e Github](https://cursos.alura.com.br/formacao-git-e-github-raul-camatari-1609958487455-p106645).
     - [x] [Formação em HTML5 e CSS3](https://cursos.alura.com.br/formacao-html-css-v534235).
 
 - ### Cursos
@@ -16,7 +16,7 @@ Repositório destinado principalmente para Cursos e Teste de Projetos
 ## Meus Projetos
 
 - [Barbearia Alura](https://crysataide.github.io/barbearia_alura/)
-- [Alura Books](https://crysataide.github.io/alura_books/).
+- [Alura Books](https://crysataide.github.io/alura_books/)
 
 ---
 
