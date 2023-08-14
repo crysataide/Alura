@@ -88,10 +88,12 @@
 
     .swiper-button-prev,
     .swiper-button-next {
-        top: 60%;
+        top: 50%;
+        padding: 20px;
         display: block;
-        border-radius: 50px;
+        border-radius: 40px;
         color: var(--branco);
+        --swiper-navigation-size: 12px;
         background: var(--azul-degrade);
         border: 1px solid var(--azul-degrade);
     }
@@ -99,5 +101,38 @@
     .card {
         width: 40%;
         margin: 3em auto;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .carrossel__container {
+        display: flex;
+        align-items: center;
+        margin: 0 20vw 3em 20vw;
+    }
+
+    .swiper-pagination {
+        margin: 1em 0;
+    }
+
+    .swiper {
+        width: 50%;
+    }
+
+    .descricao {
+        margin-right: 2em;
+    }
+
+    .descricao__titulo {
+        font-size: 32px;
+    }
+
+    .descricao__texto {
+        font-size: 16px;
+    }
+
+    .card {
+        width: 60%;
+        margin-left: 3em;
     }
 }
