@@ -11,6 +11,7 @@ Repositório destinado principalmente para Cursos e Teste de Projetos
 - ### Cursos
     - [ ] [Python com Orientação a Objetos](https://cursos.alura.com.br/formacao-Python-linguagem).
     - [ ] [HTML e CSS: ambientes de desenvolvimento, estrutura de arquivos e tags](https://cursos.alura.com.br/course/html-css-ambiente-arquivos-tags?preRequirementFrom=html-css-responsividade-mobile-first).
+    - [x] [HTMLe CSS: Responsividade com Mobile-First](https://cursos.alura.com.br/course/html-css-responsividade-mobile-first/task/106840).
 
 ## Meus Projetos
 
