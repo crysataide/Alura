@@ -6,6 +6,7 @@ Repositório destinado principalmente para Cursos e Teste de Projetos
 
 - ### Formações
     - [ ] [Formação Git e Github](https://cursos.alura.com.br/formacao-git-e-github-raul-camatari-1609958487455-p106645)
+    - [x] [Pratique HTML e CSS em projetos Web](https://cursos.alura.com.br/formacao-html-css-v534235)
     - [x] [Formação em HTML5 e CSS3](https://cursos.alura.com.br/formacao-html-css-v534235)
 
 - ### Cursos
