@@ -19,5 +19,12 @@ public class Main {
                 Ano de Lançamento
                 """ + anoDeLancamento;
         System.out.println(sinopse);
+
+        String nome = "Maria";
+        int idade = 30;
+        double valor = 55.9999;
+
+        int classificacao = (int) (media / 2);
+        System.out.println(classificacao);
     }
 }
