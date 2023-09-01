@@ -1,21 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="885813cf-0fa1-42de-9637-51c166b2abbc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bytebank.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bytebank.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../primeiro_projeto/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../primeiro_projeto/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../primeiro_projeto/.idea/kotlinc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../primeiro_projeto/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../primeiro_projeto/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../primeiro_projeto/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../primeiro_projeto/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../primeiro_projeto/primeiro_projeto.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../primeiro_projeto/src/Condicional.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../primeiro_projeto/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +15,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "crysataide"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="9c910855-9e77-47ae-8691-f67f17abefee" />
+        <option name="url" value="https://github.com/crysataide/Front_End.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "customColor": "",
@@ -39,7 +44,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "kotlin"
+    "git-widget-placeholder": "kotlin",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -51,6 +57,19 @@
       <option name="presentableId" value="Default" />
       <updated>1693489175326</updated>
     </task>
+    <task id="LOCAL-00001" summary="Kotlin | Correção de arquivo">
+      <option name="closed" value="true" />
+      <created>1693489291461</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1693489291461</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Kotlin | Correção de arquivo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Kotlin | Correção de arquivo" />
   </component>
 </project>
