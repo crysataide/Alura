@@ -2,7 +2,7 @@ data class Jogo(
     val titulo: String,
     val capa: String
 ) {
-    val descricao = ""
+    var descricao = ""
 
     override fun toString(): String {
         return "Meu Jogo'" +
