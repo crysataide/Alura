@@ -25,13 +25,40 @@ fun main() {
     val gson = Gson()
     val meuInfoJogo = gson.fromJson(json, InfoJogo::class.java)
 
-    try {
-        val meuJogo = Jogo(
+//    try {
+//        val meuJogo = Jogo(
+//            meuInfoJogo.info.title,
+//            meuInfoJogo.info.thumb
+//        )
+//        println(meuJogo)
+//    } catch (ex: NullPointerException) {
+//        println("Jogo inexistente. Tente outro id")
+//    }
+
+   var meuJogo: Jogo? = null
+
+    val resultado = runCatching {
+        meuJogo = Jogo(
             meuInfoJogo.info.title,
             meuInfoJogo.info.thumb
         )
         println(meuJogo)
-    } catch (ex: NullPointerException) {
+    }
+
+    resultado.onFailure {
         println("Jogo inexistente. Tente outro id")
+    }
+
+    resultado.onSuccess {
+        println("Deseja inserir uma descrição personalizada? S/N")
+        val opcao = leitura.nextLine()
+
+        if (opcao.equals("S", true)) {
+            println("Insira a descrição personalizada para o jogo")
+            val descricao = leitura.nextLine()
+            meuJogo?.descricao
+        } else {
+            println("")
+        }
     }
 }
