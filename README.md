@@ -1,6 +1,6 @@
 # Cursos e Projetos na Alura
 
-Repositório destinado principalmente para Cursos e Teste de Projetos 
+Repositório destinado para Cursos da Alura
 
 ## Meus Cursos/Formações
 
