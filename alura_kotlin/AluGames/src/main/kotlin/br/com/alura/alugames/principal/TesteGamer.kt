@@ -18,4 +18,5 @@ fun main() {
     }
 
     println(gamer1)
+    gamer1.usuario = "jacque"
 }
