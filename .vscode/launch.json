@@ -1,18 +1,37 @@
 {
-	"version": "0.2.0",
-	"configurations": [
-		{
-			"type": "totvs_language_debug",
-			"request": "launch",
-			"name": "Depuração do idioma TOTVS",
-			"program": "${command:AskForProgramName}",
-			"cwb": "${workspaceFolder}",
-			"smartclientBin": "../totvs/bin/smartclient/smartclient.exe",
-			"isMultiSession": true,
-			"enableTableSync": true
-		}
-	],
-	"lastPrograms": [],
-	"lastProgramExecuted": "<cancel>",
-	"lastProgramArguments": []
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "totvs_language_debug",
+      "request": "launch",
+      "name": "Depuração do idioma TOTVS",
+      "program": "${command:AskForProgramName}",
+      "cwb": "${workspaceFolder}",
+      "smartclientBin": "../totvs/bin/smartclient/smartclient.exe",
+      "isMultiSession": true,
+      "enableTableSync": true
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/crystian.ataide/Documents/Crys/Pessoal/Crys Projetos/Alura - GitHub/alura_c",
+      "program": "c:/Users/crystian.ataide/Documents/Crys/Pessoal/Crys Projetos/Alura - GitHub/alura_c/build/Release/outRelease",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ],
+  "lastPrograms": [],
+  "lastProgramExecuted": "<cancel>",
+  "lastProgramArguments": []
 }
