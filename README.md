@@ -1,6 +1,6 @@
 # Cursos e Projetos na Alura
 
-Repositório destinado principalmente para Cursos e Teste de Projetos 
+Repositório destinado para Cursos da Alura
 
 ## Meus Cursos/Formações
 
@@ -10,6 +10,7 @@ Repositório destinado principalmente para Cursos e Teste de Projetos
     - [x] [Formação em HTML5 e CSS3](https://cursos.alura.com.br/formacao-html-css-v534235)
     - [ ] [Formação Git e Github](https://cursos.alura.com.br/formacao-git-e-github-raul-camatari-1609958487455-p106645)
     - [ ] [Linguagem Kotlin](https://cursos.alura.com.br/formacao-kotlin)
+    - [ ] [Linguagem C](https://cursos.alura.com.br/formacao-linguagem-c)
 
 - ### Cursos
     - [ ] [Python com Orientação a Objetos](https://cursos.alura.com.br/formacao-Python-linguagem)
@@ -30,6 +31,7 @@ Repositório destinado principalmente para Cursos e Teste de Projetos
     <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-original.svg" title="CSS3" alt="CSS3" width="40" height="40"/>&nbsp;
     <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title="JavaScript" alt="JavaScript" width="40" height="40"/>&nbsp;
     <img src="https://github.com/devicons/devicon/blob/master/icons/php/php-original.svg" title="PHP" alt="PHP" width="50" height="40"/>&nbsp;
-    <img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original.svg" title="Git" alt="Git" width="40" height="40 "/>
+    <img src="https://github.com/devicons/devicon/blob/master/icons/c/c-original.svg" title="C" alt="C" width="50" height="40"/>&nbsp;
+    <img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original.svg" title="Git" alt="Git" width="40" height="40"/>&nbsp;
     <img src="https://github.com/devicons/devicon/blob/master/icons/mysql/mysql-original.svg" title="MySQL" alt="MySQL" width="40" height="40 "/>
 </div>
