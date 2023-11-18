@@ -10,7 +10,7 @@ Repositório destinado para Cursos da Alura
     - [x] [Formação em HTML5 e CSS3](https://cursos.alura.com.br/formacao-html-css-v534235)
     - [ ] [Formação Git e Github](https://cursos.alura.com.br/formacao-git-e-github-raul-camatari-1609958487455-p106645)
     - [ ] [Linguagem Kotlin](https://cursos.alura.com.br/formacao-kotlin)
-    - [ ] [Linguagem C](https://cursos.alura.com.br/formacao-linguagem-c)
+    - [x] [Linguagem C](https://cursos.alura.com.br/formacao-linguagem-c)
 
 - ### Cursos
     - [ ] [Python com Orientação a Objetos](https://cursos.alura.com.br/formacao-Python-linguagem)
@@ -19,6 +19,7 @@ Repositório destinado para Cursos da Alura
 
 - [Barbearia Alura](https://crysataide.github.io/barbearia_alura/)
 - [Alura Books](https://crysataide.github.io/alura_books/)
+- [Minigame do PacMan](https://github.com/crysataide/PacMan)
 
 ---
 
