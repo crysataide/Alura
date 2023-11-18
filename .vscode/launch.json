@@ -18,8 +18,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/crystian.ataide/Documents/Crys/Pessoal/Crys Projetos/Alura - GitHub/alura_c/C-Avançando na Linguagem",
-      "program": "c:/Users/crystian.ataide/Documents/Crys/Pessoal/Crys Projetos/Alura - GitHub/alura_c/C-Avançando na Linguagem/build/Debug/outDebug",
+      "cwd": ".",
+      "program": "build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
