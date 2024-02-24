@@ -48,7 +48,7 @@ def listar_restaurantes():
     exibir_subtitulo('Listando os restaurantes')
 
     for restaurante in restaurantes:
-        print(f'- {nome_}')
+        print('- {}')
 
     voltar_ao_menu_principal()
 
