@@ -1,0 +1,84 @@
+:root {
+    --fundo_pagina: #000000;
+    --cor_primaria: #FFFFFF;
+    --cor_secundaria: #22D4FD;
+    --cor_terciária: #F6F6F6;
+}
+
+body {
+    width: 1120px;
+    margin: 100px auto;
+    background-color: var(--fundo_pagina);
+}
+
+.blocos {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bloco_1 {
+    width: 593px;
+    display: flex;
+    flex-direction: column;
+}
+
+.bloco_2 > img {
+    position: static;
+    border-radius: 16px;
+    background: url(<path-to-image>), lightgray -39.262px -50.143px / 212.432% 124.461% no-repeat;
+}
+
+.textos {
+    gap: 40px;
+    width: 600px;
+    display: flex;
+    padding-bottom: 40px;
+    flex-direction: column ;
+    justify-content: space-between;
+}
+
+.textos > .texto_1 > .parte_1 {
+    color: var(--cor_primaria);
+}
+
+.textos > .texto_1 > .parte_2 {
+    color: var(--cor_secundaria);
+}
+
+.textos > .texto_1 {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 56px;
+    font-style: normal;
+    font-family: Krona One;
+}
+
+.textos > .texto_2 {
+    font-size: 24px;
+    line-height: 32px;
+    font-family: Montserrat;
+    color: var(--cor_terciária);
+}
+
+.bloco_1 > .botoes {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bloco_1 > .botoes > .Instagram,
+.bloco_1 > .botoes > .GitHub {
+    gap: 16px;
+    width: 280px;
+    height: 79px;
+    display: flex;
+    padding: 16px;
+    font-size: 24px;
+    align-items: center;
+    border-radius: 16px;
+    justify-content: center;
+    background: var(--cor_secundaria);
+    border: 0px solid var(--cor_secundaria);
+}
