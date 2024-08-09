@@ -9,7 +9,6 @@ Repositório destinado para Cursos da Alura
     - [x] [Pratique HTML e CSS em projetos Web](https://cursos.alura.com.br/formacao-html-css-v534235)
     - [x] [Python com Orientação a Objetos](https://cursos.alura.com.br/formacao-Python-linguagem)
     - [x] [Formação em HTML5 e CSS3](https://cursos.alura.com.br/formacao-html-css-v534235)
-    - [ ] [Formação Git e Github](https://cursos.alura.com.br/formacao-git-e-github-raul-camatari-1609958487455-p106645)
     - [ ] [Linguagem Kotlin](https://cursos.alura.com.br/formacao-kotlin)
     - [x] [Linguagem C](https://cursos.alura.com.br/formacao-linguagem-c)
 
