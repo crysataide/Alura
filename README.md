@@ -5,10 +5,12 @@ Repositório destinado para Cursos da Alura
 ## Meus Cursos/Formações
 
 - ### Formações
+    - [x] [Formação A partir do zero: iniciante em programação](https://cursos.alura.com.br/formacao-programacao)
     - [ ] [Aprenda Java com Orientação a Objetos](https://cursos.alura.com.br/formacao-java?preRequirementFrom=kotlin)
     - [x] [Pratique HTML e CSS em projetos Web](https://cursos.alura.com.br/formacao-html-css-v534235)
     - [x] [Python com Orientação a Objetos](https://cursos.alura.com.br/formacao-Python-linguagem)
     - [x] [Formação em HTML5 e CSS3](https://cursos.alura.com.br/formacao-html-css-v534235)
+    - [ ] [UI Design para Devs](https://cursos.alura.com.br/formacao-ui-design-devs)
     - [ ] [Linguagem Kotlin](https://cursos.alura.com.br/formacao-kotlin)
     - [x] [Linguagem C](https://cursos.alura.com.br/formacao-linguagem-c)
 
