@@ -1,0 +1,30 @@
+.titulo {
+    text-align: center;
+}
+
+.titulo h1 {
+    font-size: 40px;
+    color: #6278F7;
+    display: inline-block;
+    border-bottom: 4px solid #6278F7;
+}
+
+.time {
+    padding: 32px;
+    text-align: center;
+    background-image: url('../../../public/imagens/fundo.png');
+}
+
+.time h3 {
+    font-size: 32px;
+    padding-bottom: 8px;
+    display: inline-block;
+    border-bottom: 4px solid;
+}
+
+.time .colaboradores {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 32px;
+    justify-content: space-around;
+}
