@@ -5,16 +5,6 @@ import ListaSuspensa from '../ListaSuspensa'
 import {useState} from 'react'
 
 const Formulario = (props) => {
-    const times = [
-        'Programação',
-        'Front-End',
-        'Data Science',
-        'Devops',
-        'UX e Design',
-        'Mobile',
-        'Inovação e Gestão'
-    ]
-
     const [nome, setNome] = useState('')
     const [cargo, setCargo] = useState('')
     const [imagem, setImagem] = useState('')
@@ -23,6 +13,10 @@ const Formulario = (props) => {
     const aoSalvar = (evento) => {
         evento.preventDefault()
         props.aoColaboradorCadastrado({nome,cargo,imagem,time})
+        setNome('')
+        setCargo('')
+        setImagem('')
+        setTime('')
     }
 
     return (
@@ -43,13 +37,13 @@ const Formulario = (props) => {
                     aoAlterado={valor => setCargo(valor)}/>
                 <CampoTexto
                     label="Imagem"
-                    placeholder="Informe o endereço da imagem"
+                    placeholder="https://github.com/crysataide.png"
                     valor={imagem}
                     aoAlterado={valor => setImagem(valor)}/>
                 <ListaSuspensa
                     obrigatorio={true}
                     label="Time"
-                    itens={times}
+                    itens={props.times}
                     valor={time}
                     aoAlterado={valor => setTime(valor)}
                 />
