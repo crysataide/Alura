@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\crystian.ataide\\source\\repos\\ScreenSound\\ScreenSound\\ScreenSound.csproj": {}
+    "C:\\Users\\crystian.ataide\\Documents\\Crys\\Pessoal\\Crys Projetos\\Alura - GitHub\\Programming\\alura_c#\\C#-Criando sua primeira aplicação\\ScreenSound\\ScreenSound\\ScreenSound.csproj": {}
   },
   "projects": {
-    "C:\\Users\\crystian.ataide\\source\\repos\\ScreenSound\\ScreenSound\\ScreenSound.csproj": {
+    "C:\\Users\\crystian.ataide\\Documents\\Crys\\Pessoal\\Crys Projetos\\Alura - GitHub\\Programming\\alura_c#\\C#-Criando sua primeira aplicação\\ScreenSound\\ScreenSound\\ScreenSound.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\crystian.ataide\\source\\repos\\ScreenSound\\ScreenSound\\ScreenSound.csproj",
+        "projectUniqueName": "C:\\Users\\crystian.ataide\\Documents\\Crys\\Pessoal\\Crys Projetos\\Alura - GitHub\\Programming\\alura_c#\\C#-Criando sua primeira aplicação\\ScreenSound\\ScreenSound\\ScreenSound.csproj",
         "projectName": "ScreenSound",
-        "projectPath": "C:\\Users\\crystian.ataide\\source\\repos\\ScreenSound\\ScreenSound\\ScreenSound.csproj",
+        "projectPath": "C:\\Users\\crystian.ataide\\Documents\\Crys\\Pessoal\\Crys Projetos\\Alura - GitHub\\Programming\\alura_c#\\C#-Criando sua primeira aplicação\\ScreenSound\\ScreenSound\\ScreenSound.csproj",
         "packagesPath": "C:\\Users\\crystian.ataide\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\crystian.ataide\\source\\repos\\ScreenSound\\ScreenSound\\obj\\",
+        "outputPath": "C:\\Users\\crystian.ataide\\Documents\\Crys\\Pessoal\\Crys Projetos\\Alura - GitHub\\Programming\\alura_c#\\C#-Criando sua primeira aplicação\\ScreenSound\\ScreenSound\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
