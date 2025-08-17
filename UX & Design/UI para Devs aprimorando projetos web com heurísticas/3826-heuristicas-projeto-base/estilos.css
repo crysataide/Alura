@@ -34,6 +34,12 @@
     color: white;
 }
 
+.botao-favorito {
+    color: black;
+    border: none;
+    background-color: transparent;
+}
+
 .verde-limao {
     color: #DAFF01;
 }
@@ -110,6 +116,25 @@ form {
 .modal-title {
     font-size: 20px !important;
     font-family: "Inter", sans-serif;
+}
+
+.bi-cart2 {
+    color: white;
+    position: relative;
+    margin: 0 1em
+}
+
+#carrinho-numero {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background-color: #9353FF;
+    color: white;
+    border-radius: 50%;
+    padding: 0 25%;
+    width: 15px;
+    height: 15px;
+    font-size: 15px;
 }
 
 @media(min-width: 768px) {
